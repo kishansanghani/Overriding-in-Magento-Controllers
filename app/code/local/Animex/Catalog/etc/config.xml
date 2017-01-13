@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <Animex_Catalog>
+      <version>1.0</version>
+    </Animex_Catalog>
+  </modules>
+ 
+  <frontend>
+    <routers>
+      <catalog>
+        <args>
+          <modules>
+            <Animex_Catalog before="Mage_Catalog">Animex_Catalog</Animex_Catalog>
+          </modules>
+        </args>
+      </catalog>
+    </routers>
+  </frontend>
+</config>

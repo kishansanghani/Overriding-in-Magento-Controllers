@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <Animex_Catalog>
+      <active>true</active>
+      <codePool>local</codePool>
+    </Animex_Catalog>
+  </modules>
+</config>
